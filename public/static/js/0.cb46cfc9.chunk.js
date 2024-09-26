@@ -1,0 +1,2 @@
+(this.webpackJsonpfrontend=this.webpackJsonpfrontend||[]).push([[0],{52:function(t,n,e){"use strict";e.d(n,"b",(function(){return r})),e.d(n,"a",(function(){return u}));var a=e(15),c=e(0);function r(){var t=Object(c.useState)(!1),n=Object(a.a)(t,2);return[n[0],n[1]]}var u=function(t){var n=new Date(Date.parse(t));return"".concat(["Jan","Feb","March","April","May","June","July","Aug","Sep","Oct","Nov","Dec"][n.getMonth()]," ").concat(n.getDate(),", ").concat(n.getFullYear())}},62:function(t,n,e){}}]);
+//# sourceMappingURL=0.cb46cfc9.chunk.js.map

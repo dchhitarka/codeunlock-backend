@@ -1,0 +1,2 @@
+(this.webpackJsonpfrontend=this.webpackJsonpfrontend||[]).push([[25],{520:function(n,t,s){"use strict";s.r(t);s(0);var e=s(2);t.default=function(){return Object(e.jsx)("h1",{children:"This is About Us Page"})}}}]);
+//# sourceMappingURL=25.e8f013fe.chunk.js.map

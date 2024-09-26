@@ -1,0 +1,7 @@
+function __vite__mapDeps(indexes) {
+  if (!__vite__mapDeps.viteFileDeps) {
+    __vite__mapDeps.viteFileDeps = ["assets/index-DcZMDsWX.js","assets/index-B0ALUG50.css","assets/PostBody-DVhFKtPO.js","assets/react-markdown-Bh_9KXKW.js","assets/noimage-y3vxIS37.js","assets/a11y-dark-upxbRWMY.js","assets/Posts-zk2LY6v2.css","assets/PostEngage-Cmq-8XiD.js","assets/Reducers-FdYVeQEV.js","assets/Popup-bydbHcy1.js","assets/Popup-CwZ0YAOm.css","assets/PostComment-D7RNKUvQ.js"]
+  }
+  return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
+}
+import{r as e,_ as a,U as _,g as c,h as d,j as s}from"./index-DcZMDsWX.js";import{p as u}from"./Reducers-FdYVeQEV.js";const l=e.lazy(()=>a(()=>import("./index-DcZMDsWX.js").then(o=>o.a0),__vite__mapDeps([0,1]))),p=e.lazy(()=>a(()=>import("./PostBody-DVhFKtPO.js"),__vite__mapDeps([2,0,1,3,4,5,6]))),m=e.lazy(()=>a(()=>import("./PostEngage-Cmq-8XiD.js"),__vite__mapDeps([7,0,1,8,9,10,6]))),x=e.lazy(()=>a(()=>import("./PostComment-D7RNKUvQ.js"),__vite__mapDeps([11,0,1,3,8,5])));function g(){const o=e.useContext(_).user;let{postSlug:n}=c();const[t,r]=e.useReducer(u,{loading:!0});return document.title=`${(t==null?void 0:t.post_title)??window.location.pathname.split("/posts/")[1].split("-").map(i=>i[0].toUpperCase()+i.slice(1)).join(" ")} | CodeUnlock.in`,e.useEffect(()=>{d(n,r,o.isAuthenticated)},[o.isAuthenticated]),s.jsxs(s.Fragment,{children:[t.loading&&s.jsx(l,{}),!t.loading&&s.jsxs(s.Fragment,{children:[s.jsx(m,{post:t}),s.jsx(p,{post:t}),s.jsx(x,{post:t})]})]})}export{g as default};

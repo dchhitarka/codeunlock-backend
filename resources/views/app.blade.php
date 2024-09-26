@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179116638-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-179116638-1');
+    </script>
+    <meta charset="utf-8"/>
+    <link rel="icon" href="/icon.svg"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="theme-color" content="#000000"/>
+    <meta name="description" content="The next-gen blog for the next-gen developers. The final destination for your queries regarding Python, JavaScript, PHP, Web Development, Data Structures, Algorithms and much more."/>
+    <link rel="apple-touch-icon" href="/icon.png"/>
+    <link rel="manifest" href="/manifest.json"/>
+    <title>Code Unlock | The next gen blog for the next gen developers</title>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <!-- <link href="/static/css/main.be85669c.chunk.css" rel="stylesheet"> -->
+    <script type="module" crossorigin src="/assets/index-DcZMDsWX.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-B0ALUG50.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+  <!-- <body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>!function(e){function t(t){for(var n,o,f=t[0],u=t[1],i=t[2],d=0,s=[];d<f.length;d++)o=f[d],Object.prototype.hasOwnProperty.call(a,o)&&a[o]&&s.push(a[o][0]),a[o]=0;for(n in u)Object.prototype.hasOwnProperty.call(u,n)&&(e[n]=u[n]);for(l&&l(t);s.length;)s.shift()();return c.push.apply(c,i||[]),r()}function r(){for(var e,t=0;t<c.length;t++){for(var r=c[t],n=!0,o=1;o<r.length;o++){var u=r[o];0!==a[u]&&(n=!1)}n&&(c.splice(t--,1),e=f(f.s=r[0]))}return e}var n={},o={8:0},a={8:0},c=[];function f(t){if(n[t])return n[t].exports;var r=n[t]={i:t,l:!1,exports:{}};return e[t].call(r.exports,r,r.exports,f),r.l=!0,r.exports}f.e=function(e){var t=[];o[e]?t.push(o[e]):0!==o[e]&&{0:1,2:1,4:1,10:1,11:1,12:1,13:1,14:1,15:1,16:1,17:1,18:1,19:1,20:1,21:1,22:1,23:1,24:1}[e]&&t.push(o[e]=new Promise((function(t,r){for(var n="static/css/"+({}[e]||e)+"."+{0:"b233b600",1:"31d6cfe0",2:"dddf8b4b",3:"31d6cfe0",4:"0ee172fe",5:"31d6cfe0",6:"31d6cfe0",10:"ce46a607",11:"fe8c3f73",12:"e8ed123c",13:"b591a2a6",14:"cb929c45",15:"1e2ab125",16:"1e2ab125",17:"1e2ab125",18:"1e2ab125",19:"1e2ab125",20:"1e2ab125",21:"7ac5671c",22:"8f120811",23:"d6070135",24:"eac38781",25:"31d6cfe0",26:"31d6cfe0"}[e]+".chunk.css",a=f.p+n,c=document.getElementsByTagName("link"),u=0;u<c.length;u++){var i=(l=c[u]).getAttribute("data-href")||l.getAttribute("href");if("stylesheet"===l.rel&&(i===n||i===a))return t()}var d=document.getElementsByTagName("style");for(u=0;u<d.length;u++){var l;if((i=(l=d[u]).getAttribute("data-href"))===n||i===a)return t()}var s=document.createElement("link");s.rel="stylesheet",s.type="text/css",s.onload=t,s.onerror=function(t){var n=t&&t.target&&t.target.src||a,c=new Error("Loading CSS chunk "+e+" failed.\n("+n+")");c.code="CSS_CHUNK_LOAD_FAILED",c.request=n,delete o[e],s.parentNode.removeChild(s),r(c)},s.href=a,document.getElementsByTagName("head")[0].appendChild(s)})).then((function(){o[e]=0})));var r=a[e];if(0!==r)if(r)t.push(r[2]);else{var n=new Promise((function(t,n){r=a[e]=[t,n]}));t.push(r[2]=n);var c,u=document.createElement("script");u.charset="utf-8",u.timeout=120,f.nc&&u.setAttribute("nonce",f.nc),u.src=function(e){return f.p+"static/js/"+({}[e]||e)+"."+{0:"cb46cfc9",1:"08c0580c",2:"d5a758b9",3:"cb3c0aef",4:"3716c2b8",5:"436ee092",6:"9b36546e",10:"5e395c04",11:"27eff2e8",12:"c5e10ae4",13:"4a227519",14:"9a4ce69f",15:"5daddfd2",16:"6a4cdab6",17:"0c319a2f",18:"0934458c",19:"c5c29c22",20:"1d4c5482",21:"223f5fa9",22:"beededdd",23:"ebedafac",24:"cc7b6d57",25:"e8f013fe",26:"d3b6d0f2"}[e]+".chunk.js"}(e);var i=new Error;c=function(t){u.onerror=u.onload=null,clearTimeout(d);var r=a[e];if(0!==r){if(r){var n=t&&("load"===t.type?"missing":t.type),o=t&&t.target&&t.target.src;i.message="Loading chunk "+e+" failed.\n("+n+": "+o+")",i.name="ChunkLoadError",i.type=n,i.request=o,r[1](i)}a[e]=void 0}};var d=setTimeout((function(){c({type:"timeout",target:u})}),12e4);u.onerror=u.onload=c,document.head.appendChild(u)}return Promise.all(t)},f.m=e,f.c=n,f.d=function(e,t,r){f.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},f.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(e,t){if(1&t&&(e=f(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(f.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var n in e)f.d(r,n,function(t){return e[t]}.bind(null,n));return r},f.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return f.d(t,"a",t),t},f.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},f.p="/",f.oe=function(e){throw console.error(e),e};var u=this.webpackJsonpfrontend=this.webpackJsonpfrontend||[],i=u.push.bind(u);u.push=t,u=u.slice();for(var d=0;d<u.length;d++)t(u[d]);var l=i;r()}([])</script><script src="/static/js/9.d1b9ab9f.chunk.js"></script><script src="/static/js/main.ba8e0459.chunk.js"></script></body></html> -->
